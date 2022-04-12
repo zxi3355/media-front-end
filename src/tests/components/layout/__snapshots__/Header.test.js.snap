@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Header correctly 1`] = `
+<header>
+  <nav
+    className="navbar fixed-top navbar-light bg-light"
+  >
+    <div
+      className="container-fluid"
+    >
+      <a
+        className="navbar-brand"
+        href="#"
+      >
+        Article Feed
+      </a>
+    </div>
+  </nav>
+</header>
+`;

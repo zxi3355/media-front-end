@@ -1,0 +1,11 @@
+.TeaserItem {
+  display: flex;
+  flex-direction: row;
+  & > * {
+    flex: 1;
+  }
+
+  &:first-of-type {
+    flex-direction: column;
+  }
+}

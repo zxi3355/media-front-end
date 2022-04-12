@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render TeaserList page correctly 1`] = `
+<div
+  className="TeaserList"
+>
+  <div
+    className="TeaserList--teasers"
+  >
+    <TeaserItem
+      key="NOW-54531"
+      teaser={
+        Object {
+          "contentImageUrl": "http://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/Now/2019/03/08/54531/Hero1.jpg",
+          "contentSummary": "Yass Queen!",
+          "contentTitle": "Queen Elizabeth has Instagrammed for the first time",
+          "id": "NOW-54531",
+          "pageDateCreated": "2019-03-07T20:27:48.00Z",
+          "source": "Australian Women's Weekly",
+          "url": "https://www.nowtolove.com.au/royals/british-royal-family/the-queen-instagram-54531",
+        }
+      }
+    />
+    <TeaserItem
+      key="NOW-54515"
+      teaser={
+        Object {
+          "contentImageUrl": "http://d3lp4xedbqa8a5.cloudfront.net/s3/digital-cougar-assets/Now/2019/03/07/54515/HERO.jpg",
+          "contentSummary": "On a rainy day in Blackpool, the Duke and Duchess of Cambridge brought some brightness.",
+          "contentTitle": "Duchess Catherine just hinted where the next Cambridge family holiday will be",
+          "id": "NOW-54515",
+          "pageDateCreated": "2019-03-06T20:37:57.00Z",
+          "source": "Australian Women's Weekly",
+          "url": "https://www.nowtolove.com.au/royals/british-royal-family/kate-middleton-family-holiday-blackpool-54515",
+        }
+      }
+    />
+  </div>
+  <div
+    className="TeaserList--ads"
+  >
+    <Advertisement />
+  </div>
+</div>
+`;
